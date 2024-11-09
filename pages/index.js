@@ -14,6 +14,7 @@ export default function Home() {
 
     // GETリクエストの結果をコンソールに表示
     console.log("GETリクエストの結果:", data.message);
+    console.log("Flask URL:", flaskUrl);  // これを追加して確認
 
     setGetResponse(data.message);
   };
