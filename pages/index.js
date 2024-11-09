@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const flaskUrl = process.env.NEXT_PUBLIC_FLASK_API_URL;
+const flaskUrl = 'https://temp-step32-demo-back-ajdzemd0fyfzapff.eastus-01.azurewebsites.net/';
 
 export default function Home() {
   // GETリクエストを送信
